@@ -1,0 +1,76 @@
+.footer-main {
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-main-container {
+    background-color: var(--secondary-background-color);
+    padding: 20px 0 !important;
+}
+
+.footer-main {
+    gap: 20px;
+}
+
+.footer-main .col:first-child {
+    flex: 3;
+}
+
+.footer-main .col {
+    flex: 2;
+}
+
+.container .footer-logo {
+    text-decoration: none;
+}
+
+.container .footer-logo h3{
+    font-size: var(--logo-font-size);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.container .footer-description {
+    font-size: var(--normal-font-size);
+    color: var(--secondary-color);
+}
+
+.container .footer-socials {
+    display: flex;
+    flex-direction: row;
+    padding: 0 12px;
+    gap: 20px;
+}
+
+.footer-socials .social-icon-link i {
+    font-size: 24px;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.footer-socials .social-icon-link:hover i {
+    color: var(--secondary-color);
+}
+
+.footer-main .footer-category h4 {
+    font-size: var(--normal-font-size);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.footer-main .footer-item span {
+    font-size: var(--normal-font-size);
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer-main .footer-item span:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
