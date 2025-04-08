@@ -17,7 +17,7 @@ const Footer = () => {
             <div className='footer-main-container'>
                 <Container>
                     <Row className='footer-main'>
-                        <Col>
+                        <Col className='col-sm-12 col-md-3 col-lg-3'>
                             <Row>
                                 <NavLink href='/' className='footer-logo'>
                                     <h3 className='text-uppercase'>shop.co</h3>
@@ -39,7 +39,7 @@ const Footer = () => {
                                 </a>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className='col-sm-12 col-md-3 col-lg-3'>
                             <Row className='footer-category'><h4>Company</h4></Row>
                             {companyItems.map((item, index) => (
                                 <Row key={index} className='footer-item'>
@@ -47,7 +47,7 @@ const Footer = () => {
                                 </Row>
                             ))}
                         </Col>
-                        <Col>
+                        <Col className='col-sm-12 col-md-3 col-lg-3'>
                             <Row className='footer-category'><h4>Help</h4></Row>
                             {helpItems.map((item, index) => (
                                 <Row key={index} className='footer-item'>
@@ -55,7 +55,7 @@ const Footer = () => {
                                 </Row>
                             ))}
                         </Col>
-                        <Col>
+                        <Col className='col-sm-12 col-md-3 col-lg-3'>
                             <Row className='footer-category'><h4>FAQ</h4></Row>
                             {faqItems.map((item, index) => (
                                 <Row key={index} className='footer-item'>
@@ -63,7 +63,7 @@ const Footer = () => {
                                 </Row>
                             ))}
                         </Col>
-                        <Col>
+                        <Col className='col-sm-12 col-md-3 col-lg-3'>
                             <Row className='footer-category'><h4>Resources</h4></Row>
                             {resourceItems.map((item, index) => (
                                 <Row key={index} className='footer-item'>

@@ -1,0 +1,13 @@
+.category-card {
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card .title {
+    font-size: var(--small-font-size);
+}

@@ -12,12 +12,18 @@
 .container {
   max-width: 1200px !important;
   margin: 0 auto !important;
+  padding: 20px 0 !important;
+}
+
+.container .row,
+.container .col {
+  margin: 0 !important;
   padding: 0 !important;
 }
 
 :root {
   --logo-font-size: 32px;
-  --banner-font-size: 64px;
+  --banner-font-size: 48px;
   --category-font-size: 24px;
   --normal-font-size: 16px;
   --small-font-size: 14px;

@@ -1,0 +1,15 @@
+.headline-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-family: var(--headline-font-family);
+}
+
+.primary-btn {
+    border-radius: 9999px;
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+    font-size: var(--normal-font-size);
+    max-width: 200px !important;
+    border: none;
+    padding: 5px 20px;
+}

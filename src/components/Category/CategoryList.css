@@ -1,0 +1,9 @@
+.category {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.category .category-title h4{
+    font-size: 24px;
+    font-weight: 700;
+}
